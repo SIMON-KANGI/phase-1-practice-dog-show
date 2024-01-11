@@ -9,8 +9,8 @@ trow.innerHTML=`
 <td>${dog.name}</td>
 <td>${dog.breed}</td>
 <td>${dog.sex}</td>
-<button class="edit" item-id=${dog.id}>Edit Dog</button>//edit button
-<button class="delete" item-id=${dog.id}>Delete Dog</button>//delete buttonm
+<button class="edit" item-id=${dog.id}>Edit Dog</button> 
+<button class="delete" item-id=${dog.id}>Delete Dog</button>
 `
 tbody.appendChild(trow)
 
